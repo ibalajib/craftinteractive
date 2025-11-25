@@ -1,0 +1,88 @@
+{
+ "charts": [
+  {
+   "chart_name": "Completed Tasks",
+   "label": "Completed"
+  },
+  {
+   "chart_name": "Overdue",
+   "label": "Overdue"
+  },
+  {
+   "chart_name": "Status distribution",
+   "label": "Status Distribution"
+  },
+  {
+   "chart_name": "Maintenance Total Cost",
+   "label": "Maintenance Total Cost"
+  },
+  {
+   "chart_name": "Maintenance Cost Trend",
+   "label": "Maintenance Cost Trend"
+  }
+ ],
+ "content": "[{\"id\":\"cYL3P154kG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Machine Maintenance</span>\",\"col\":12}},{\"id\":\"6MS7ZnQj6b\",\"type\":\"card\",\"data\":{\"card_name\":\"Doctypes\",\"col\":4}},{\"id\":\"nHNHyJ14rn\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"rR2-uXYmNq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Completed\",\"col\":6}},{\"id\":\"8HUZDl9xcx\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overdue\",\"col\":6}},{\"id\":\"CMrWyY4sv1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Status Distribution\",\"col\":12}},{\"id\":\"VmGYc3fbSn\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Maintenance Total Cost\",\"col\":6}},{\"id\":\"cIdxzD2ymQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Maintenance Cost Trend\",\"col\":6}}]",
+ "creation": "2025-11-25 18:45:50.903252",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Maintenance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctypes",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Machine Maintenance",
+   "link_count": 0,
+   "link_to": "Machine Maintenance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Machine Maintenance Report",
+   "link_count": 0,
+   "link_to": "Machine Maintenance Report",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-11-25 18:53:22.156254",
+ "modified_by": "Administrator",
+ "module": "Craft Interactive",
+ "name": "Maintenance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "Maintenance"
+}

@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"Scheduled\"",
+ "creation": "2025-11-25 17:20:09.897864",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Machine Maintenance",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Maintenance for {{ doc.machine_name }} is scheduled on {{ doc.maintenance_date }}.\n",
+ "message_type": "Markdown",
+ "modified": "2025-11-25 17:21:38.391519",
+ "modified_by": "Administrator",
+ "module": "Craft Interactive",
+ "name": "Scheduled Message",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Maintenance Scheduled for {{ doc.machine_name }}",
+ "value_changed": "status"
+}

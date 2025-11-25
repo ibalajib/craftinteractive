@@ -1,0 +1,37 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Completed Tasks",
+   "width": "Half"
+  },
+  {
+   "chart": "Overdue",
+   "width": "Half"
+  },
+  {
+   "chart": "Status distribution",
+   "width": "Full"
+  },
+  {
+   "chart": "Maintenance Total Cost",
+   "width": "Half"
+  },
+  {
+   "chart": "Maintenance Cost Trend",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-11-25 18:21:41.233764",
+ "dashboard_name": "Machine Maintenance",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2025-11-25 18:38:32.555814",
+ "modified_by": "Administrator",
+ "module": "Craft Interactive",
+ "name": "Machine Maintenance",
+ "owner": "Administrator"
+}
