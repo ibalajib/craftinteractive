@@ -7,8 +7,7 @@ from erpnext.crm.utils import CRMNote
 from erpnext.accounts.doctype.journal_entry.journal_entry import get_exchange_rate
 from frappe.utils import today, getdate,flt
 
-EXPENSE_ACCOUNT = "Office Maintenance Expenses - CI"
-PAYMENT_ACCOUNT = "Cash - CI"
+
 
 class MachineMaintenance(CRMNote, Document):
 
@@ -45,11 +44,14 @@ class MachineMaintenance(CRMNote, Document):
         return total
 
     def create_journal_entry(self, amount):
-        print(amount)
         if amount <= 0:
             frappe.msgprint("No parts used. Skipping Journal Entry.")
             return
+        company_abbr = frappe.db.get_value("Company", self.company, "abbr")
 
+        EXPENSE_ACCOUNT = f"Office Maintenance Expenses - {company_abbr}"
+        PAYMENT_ACCOUNT = f"Cash - {company_abbr}"
+        
         je = frappe.new_doc("Journal Entry")
         je.voucher_type = "Journal Entry"
         je.posting_date = today()
