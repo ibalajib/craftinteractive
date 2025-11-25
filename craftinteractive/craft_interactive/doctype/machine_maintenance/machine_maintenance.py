@@ -47,7 +47,9 @@ class MachineMaintenance(CRMNote, Document):
         if amount <= 0:
             frappe.msgprint("No parts used. Skipping Journal Entry.")
             return
-        company_abbr = frappe.db.get_value("Company", self.company, "abbr")
+        
+        company = frappe.defaults.get_user_default("company")
+        company_abbr = frappe.db.get_value("Company", company, "abbr")
 
         EXPENSE_ACCOUNT = f"Office Maintenance Expenses - {company_abbr}"
         PAYMENT_ACCOUNT = f"Cash - {company_abbr}"
