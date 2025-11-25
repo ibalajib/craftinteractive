@@ -150,14 +150,13 @@ app_license = "MIT"
 
 # fixtures = [
 #     {
-#         "dt": "Notification",
-#         "filters": [["name", "in", [
-#             "Overdue Message",
-#             "Scheduled Message",
-#             "Completed Message"
-#         ]]]
+#         "dt": "Role",
+#         "filters": [
+#             ["role_name", "in", ["Technician", "Manager"]],
+#         ]
 #     }
 # ]
+
 
 
 
