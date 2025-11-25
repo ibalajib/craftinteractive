@@ -149,31 +149,16 @@ app_license = "MIT"
 # -------
 
 # fixtures = [
-#     # Workflow States
 #     {
-#         "dt": "Workflow State",
-#         "filters": [
-#             ["name", "in", [
-#                 "Draft",
-#                 "Scheduled",
-#                 "Completed",
-#                 "Closed"
-#             ]]
-#         ]
-#     },
-
-#     # Workflow Actions
-#     {
-#         "dt": "Workflow Action Master",
-#         "filters": [
-#             ["name", "in", [
-#                 "Schedule",
-#                 "Completed",
-#                 "Close"
-#             ]]
-#         ]
+#         "dt": "Notification",
+#         "filters": [["name", "in", [
+#             "Overdue Message",
+#             "Scheduled Message",
+#             "Completed Message"
+#         ]]]
 #     }
 # ]
+
 
 
 # before_tests = "craftinteractive.install.before_tests"
