@@ -148,6 +148,34 @@ app_license = "MIT"
 # Testing
 # -------
 
+# fixtures = [
+#     # Workflow States
+#     {
+#         "dt": "Workflow State",
+#         "filters": [
+#             ["name", "in", [
+#                 "Draft",
+#                 "Scheduled",
+#                 "Completed",
+#                 "Closed"
+#             ]]
+#         ]
+#     },
+
+#     # Workflow Actions
+#     {
+#         "dt": "Workflow Action Master",
+#         "filters": [
+#             ["name", "in", [
+#                 "Schedule",
+#                 "Completed",
+#                 "Close"
+#             ]]
+#         ]
+#     }
+# ]
+
+
 # before_tests = "craftinteractive.install.before_tests"
 
 # Overriding Methods

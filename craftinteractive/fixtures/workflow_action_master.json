@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 14:59:07.196750",
+  "name": "Completed",
+  "workflow_action_name": "Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 14:06:03.257749",
+  "name": "Schedule",
+  "workflow_action_name": "Schedule"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 14:06:52.937520",
+  "name": "Close",
+  "workflow_action_name": "Close"
+ }
+]
