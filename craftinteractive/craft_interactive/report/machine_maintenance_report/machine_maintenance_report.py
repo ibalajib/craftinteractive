@@ -31,11 +31,9 @@ def get_data(filters):
     if filters.get("machine_name"):
         conditions += " AND machine_name = %(machine_name)s"
 
-    # Technician filter
     if filters.get("technician"):
         conditions += " AND technician = %(technician)s"
 
-    # DateRange filter
     if filters.get("from_date"):
         start_date, end_date = filters.get("from_date")
         

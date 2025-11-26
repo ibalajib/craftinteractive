@@ -4,10 +4,8 @@
 
 frappe.query_reports["Machine Maintenance Report"] = {
 	formatter(value, row, column, data, default_formatter) {
-        // Apply default
         value = default_formatter(value, row, column, data);
 
-        // If no data yet, return
         if (!data || !data.status) {
             return value;
         }
@@ -24,7 +22,6 @@ frappe.query_reports["Machine Maintenance Report"] = {
             color = "background-color:#d6f5d6 !important;";   // light green
         }
 
-        // Wrap entire row cell
         return `<span style="${color} display:block; width:100%; height:100%;">${value}</span>`;
     },
 	"filters": [
