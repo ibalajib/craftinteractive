@@ -148,17 +148,6 @@ app_license = "MIT"
 # Testing
 # -------
 
-# fixtures = [
-#     {
-#         "dt": "Role",
-#         "filters": [
-#             ["role_name", "in", ["Technician", "Manager"]],
-#         ]
-#     }
-# ]
-
-
-
 
 # before_tests = "craftinteractive.install.before_tests"
 
